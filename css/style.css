@@ -51,6 +51,28 @@ main {
   margin-top: 170px;
 }
 
+.card-billetera {
+  background: #C6FFAF;
+  color: #000;
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.boton-redondeado {
+  border-radius: 20px;
+  background-color: #0B303B;
+  color: #FEF4EE;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+}
+
 footer {
   color: #FEF4EE;
   background: #0B303B;
