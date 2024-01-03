@@ -12,11 +12,20 @@ body {
 header {
   background: #FEF4EE;
   border-radius: 20px;
-  padding: 1rem;
+  padding: 3rem;
   position: fixed;
   margin: 20px;
   top: 0;
   width: 87%;
+}
+
+.icon-center {
+  text-align: center;
+}
+
+i {
+  font-size: 70px;
+  color: #0B303B;
 }
 
 .logo {
@@ -26,25 +35,44 @@ header {
   display: flex;
   align-items: center;
 }
-.logo img{
+
+.logo img {
   width: 20%;
   margin-right: 10px;
 }
 
 a {
   text-decoration: none;
-  color: #0B303B;
+  color: #FEF4EE;
 }
 
 main {
   margin: 20px;
-  margin-top: 200px;
+  margin-top: 170px;
 }
 
-footer{
+footer {
   color: #FEF4EE;
   background: #0B303B;
   padding: 3rem;
-  text-align: center;
+}
+
+.comp {
+  display: flex;
+  align-items: center;
+}
+
+.download {
+  font-size: 12px;
+}
+
+.term {
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+.copyright {
+  margin-top: 40px;
   font-size: 11px;
+  text-align: center;
 }
