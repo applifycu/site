@@ -55,8 +55,45 @@ main {
   background: #C6FFAF;
   color: #000;
   border-radius: 30px;
+  margin-top: 2rem;
   padding: 20px;
   text-align: center;
+}
+
+.card-simple {
+  background: #0B303B;
+  color: #FEF4EE;
+  border-radius: 30px;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+  padding: 20px;
+  text-align: center;
+}
+
+.cards-team {
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  margin: 6px;
+  width: 50%;
+  height: 200px;
+  border: 2px solid #0B303B;
+}
+
+.card-info {
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #0B303B;
+}
+
+.rounded-image {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  overflow: hidden;
 }
 
 .boton-redondeado {
@@ -71,6 +108,11 @@ main {
   margin: 4px 2px;
   cursor: pointer;
   border: none;
+}
+
+.team {
+  display: flex;
+  align-items: center;
 }
 
 footer {
