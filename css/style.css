@@ -13,12 +13,14 @@ header {
   background: #FEF4EE;
   border-radius: 20px;
   padding: 1rem;
-  position: fixed;
+  /*position: fixed;*/
   margin: 20px;
   top: 0;
   width: 87%;
 }
-
+.content{
+  margin: 20px;
+}
 .icon-center {
   text-align: center;
 }
@@ -36,6 +38,19 @@ i {
   align-items: center;
 }
 
+.icons {
+  background: #FEF4EE;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
 .logo img {
   width: 20%;
   margin-right: 10px;
@@ -47,7 +62,7 @@ a {
 }
 
 main {
-  margin: 20px;
+  margin: 0px;
   margin-top: 170px;
 }
 
@@ -56,6 +71,7 @@ main {
   color: #000;
   border-radius: 30px;
   margin-top: 2rem;
+  margin: 20px;
   padding: 20px;
   text-align: center;
 }
@@ -66,24 +82,33 @@ main {
   border-radius: 30px;
   margin-top: 2rem;
   margin-bottom: 8rem;
+  margin: 20px;
   padding: 20px;
   text-align: center;
 }
 
 .cards-team {
+  display: flex;
+  flex-direction: column;
   border-radius: 30px;
   padding: 20px;
   text-align: center;
   align-items: center;
   margin: 6px;
-  width: 200px;
+  margin-bottom: 5rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex: 0 0 180px;
   height: 230px;
+  max-width: 100%;
   border: 2px solid #0B303B;
 }
 
 .card-info {
   border-radius: 30px;
   padding: 20px;
+  margin: 20px;
+  margin-top: 3rem;
   text-align: center;
   border: 2px solid #0B303B;
 }
@@ -113,6 +138,8 @@ main {
 .team {
   display: flex;
   align-items: center;
+  overflow-x: auto;
+  max-width: 100%;
 }
 
 footer {
@@ -128,6 +155,28 @@ footer {
 
 .download {
   font-size: 12px;
+}
+
+.boton-flotante {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  background-color: #00D070;
+  color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.boton-flotante:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .term {
